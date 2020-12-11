@@ -70,7 +70,7 @@
 
 - simple echo load testing
 
-| Framework | Protocol        | Codec         | Configuration                                             | Connection Num | Goroutine Num | Qps     |
+| Framework | Protocol        | Codec         | Configuration                                             | Connection Num | Number of Goroutines Per Connection | Qps     |
 | --------- | --------------- | ------------- | --------------------------------------------------------- | -------------- | ------------- | ------- |
 | arpc      | tcp/localhost   | encoding/json | os: VMWare Ubuntu 18.04<br>cpu: AMD 3500U 4c8t<br>mem: 2G | 8              | 10            | 80-100k |
 | grpc      | http2/localhost | protobuf      | os: VMWare Ubuntu 18.04<br>cpu: AMD 3500U 4c8t<br>mem: 2G | 8              | 10            | 20-30k  |
